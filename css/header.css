@@ -1,0 +1,33 @@
+.header .logo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    background-color: gray;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header nav{
+    height: 4rem;
+    display: flex;
+    font-size: 1.8rem;
+    gap: 3rem;
+    padding: 0px 5rem;
+    align-items: center;
+    border-radius: 3rem;
+    background-color: rgb(255, 244, 224);
+}
+.header .btn_header{
+    height: 4rem;
+    background-color: rgb(28, 28, 44);
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    color: white;
+    width: 13rem;
+}

@@ -1,27 +1,16 @@
+import { header } from "./header_componentes.js";
 
 let root = document.querySelector(".root")
-let nav = document.createElement("nav")
-    nav.classList.add("header");
-let div = document.createElement("div");
-    div.classList.add("perfil")
-let div2 = document.createElement("div")
-    div2.classList.add("grid")
-    root.appendChild(nav)
-    root.appendChild(div)
-    root.appendChild(div2)
 
-    let caja1 = document.createElement("div")
-    let caja2 = document.createElement("div")
+let componentes = `
+<div class="header">${header}</div>
+<div class="perfil">${perfil}</div>
+<div class="grid">
+    <div class="paginas"></div>
+    <div class="soporte"></div>
+</div>
+`;
 
-    caja1.classList.add("caja1")
-    caja2.classList.add("caja2")
+    root.innerHTML = componentes;
 
-    div2.appendChild(caja1)
-    div2.appendChild(caja2)
-
-    nav.innerHTML = `HEADER`;
-
-    div.innerHTML = `PERFIL`;
-
-    caja1.innerHTML = `CAJA 1`;
-    caja2.innerHTML = `CAJA 2`;
+import { perfil } from "./perfil_componentes.js";
