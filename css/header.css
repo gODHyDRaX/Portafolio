@@ -10,16 +10,7 @@
     align-items: center;
     justify-content: center;
 }
-.header nav{
-    height: 4rem;
-    display: flex;
-    font-size: 1.8rem;
-    gap: 3rem;
-    padding: 0px 5rem;
-    align-items: center;
-    border-radius: 3rem;
-    background-color: rgb(255, 244, 224);
-}
+
 .header .btn_header{
     height: 4rem;
     background-color: rgb(28, 28, 44);
@@ -31,3 +22,26 @@
     color: white;
     width: 13rem;
 }
+/* nav*/
+.nav{
+    width: 590px;
+    height: 50px;
+    border: 8px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.nav div{
+    cursor: pointer;
+}
+ .nav div:hover{
+    color:#2e6fb1;
+ }
+
+
+
+

@@ -1,5 +1,5 @@
 import { header } from "./header_componentes.js";
-
+import { wbs } from "./Data_web.js";
 let root = document.querySelector(".root")
 
 let componentes = `

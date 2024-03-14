@@ -2,7 +2,7 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: 30rem 1fr;
+    grid-template-columns: 25rem 1fr;
     grid-template-rows: 7rem 1fr;
 }
 .header{
@@ -13,6 +13,8 @@
     font-size: 2rem;
     justify-content: space-between;
     padding: 1rem;
+    background-color: #242323;
+    color: #ffff;
 }
 .perfil{
     display: flex;
@@ -26,9 +28,10 @@
 }
 .paginas{
     display: flex;
-    justify-content: center;
+    justify-content: space-between  ;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
 }
 .soporte{
     display: flex;
@@ -36,3 +39,108 @@
     align-items: center;
     font-size: 2rem;
 }
+.cartas{
+    width: 35rem;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #232639;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 2rem 1fr 3rem 2rem;
+    color: white;
+    gap: 1rem;
+}
+.titulo{
+    background-color: #42445D;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 5px;
+}
+.descripcion{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    display: flex;
+    align-items: center;
+}
+.img{
+    background-color: white;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 5px;
+}
+/* cartas*/    
+.github {
+    text-decoration: none;
+    border: 2px solid #689cb4;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+   }
+   
+   .github::before {
+    content: '';
+    width: 0;
+    height: 400%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #689cb4;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .github:hover::before {
+    width: 105%;
+   }
+   
+   .github:hover {
+    color: #111;
+   }
+   .repo {
+    text-decoration: none;
+    border: 2px solid #689cb4;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+   }
+   
+   .repo::before {
+    content: '';
+    width: 0;
+    height: 400%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #689cb4;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .repo:hover::before {
+    width: 105%;
+   }
+   
+   .repo:hover {
+    color: #111;
+   }
