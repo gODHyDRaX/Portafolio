@@ -7,7 +7,7 @@ let wbs = [
         github_page: "https://godhydrax.github.io/Juego-de-memoria-2024/"
     },
     {
-        nombre: "Calculadora",
+        nombre: "Parqueo_JavaScript",
         img: "",
         github_page:"https://godhydrax.github.io/Juego-de-memoria-2024/",
         descripcion: "Esta es una descripcion",
