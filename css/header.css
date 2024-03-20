@@ -24,8 +24,8 @@
 }
 /* nav*/
 .nav{
-    width: 590px;
-    height: 50px;
+    width: 35%;
+    height: 10%;
     border: 8px;
     color: white;
     display: flex;
@@ -37,9 +37,17 @@
 }
 .nav div{
     cursor: pointer;
+    background-color: rgb(28, 28, 44);
+    border-radius: 15px;
+    width: 9rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
  .nav div:hover{
-    color:#2e6fb1;
+        background-color: #1a446e;
+        transition: 0.5s ease;
  }
 
 

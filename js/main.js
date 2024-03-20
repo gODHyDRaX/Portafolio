@@ -1,7 +1,7 @@
 import { header } from "./header_componentes.js";
 import { wbs } from "./Data_web.js";
 let root = document.querySelector(".root")
-
+        
 let componentes = `
 <div class="header">${header}</div>
 <div class="perfil">${perfil}</div>
