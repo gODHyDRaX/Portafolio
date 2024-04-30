@@ -12,6 +12,6 @@ lista_soporte_tecnico.forEach((cada_categoria)=>{
     <div class="div_categoria">Categoria</div>
     `;
     
-    div_soporte.classList.add("cartas2")
+    div_soporte.classList.add("cartas2")    
     soporte.appendChild(div_soporte)
 })

@@ -1,7 +1,7 @@
 .cartas2{
-    width: 22%;
+    width: 100%;
     
-    height: 26rem;
+    height: 100%;
     border-radius: 15px;
     background-color: #232639;
     padding: 1rem;
@@ -11,6 +11,9 @@
     color: white;
     gap: 1rem;
     cursor: pointer;
+}
+.cartas2:hover{
+            background-color: #2e324d;
 }
 .titulo2{
     display: flex;
